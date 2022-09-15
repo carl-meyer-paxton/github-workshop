@@ -8,6 +8,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { NextStepsComponent } from './next-steps/next-steps.component';
 import { TerminalComponent } from './terminal/terminal.component';
+import { LinksComponent } from './links/links.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TerminalComponent } from './terminal/terminal.component';
     ResourcesComponent,
     NextStepsComponent,
     TerminalComponent,
+    LinksComponent,
   ],
   imports: [
     BrowserModule,
