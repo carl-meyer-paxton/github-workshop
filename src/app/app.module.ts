@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { RocketComponent } from './rocket/rocket.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ResourcesComponent } from './resources/resources.component';
+import { NextStepsComponent } from './next-steps/next-steps.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ResourcesComponent } from './resources/resources.component';
     RocketComponent,
     ToolbarComponent,
     ResourcesComponent,
+    NextStepsComponent,
   ],
   imports: [
     BrowserModule,
