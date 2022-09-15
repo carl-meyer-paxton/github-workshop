@@ -7,6 +7,7 @@ import { RocketComponent } from './rocket/rocket.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ResourcesComponent } from './resources/resources.component';
 import { NextStepsComponent } from './next-steps/next-steps.component';
+import { TerminalComponent } from './terminal/terminal.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { NextStepsComponent } from './next-steps/next-steps.component';
     ToolbarComponent,
     ResourcesComponent,
     NextStepsComponent,
+    TerminalComponent,
   ],
   imports: [
     BrowserModule,
