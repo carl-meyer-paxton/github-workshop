@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+  githubworkshop:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+      - 3001:3001
+    container_name: github-workshop
+    volumes: 
+      - .:/app
+      - /app/node_modules
